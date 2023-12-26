@@ -1,4 +1,4 @@
-# Workout app
+# Workout app - Done in 2021
 Desktop application in which you can insert your workouts and follow the progress over time
 
 ## How to use
