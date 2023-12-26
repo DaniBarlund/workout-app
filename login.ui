@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>576</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1101</width>
+     <height>771</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:pad, x1:0.108, y1:0.170455, x2:0.795, y2:0.835, stop:0 rgba(85, 255, 255, 255), stop:0.994318 rgba(255, 170, 255, 255));}</string>
+   </property>
+   <widget class="QPushButton" name="Button_home">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Mongolian Baiti&quot;;
+border-style: outset;
+border-width: 3px;
+border-radius: 15px;
+border: 1px solid grey;
+padding: 6px;
+background-color:qlineargradient(spread:pad, x1:0.108, y1:0.170455, x2:0.795, y2:0.835, stop:0 rgba(255, 170, 255, 255), stop:1 rgba(85, 255, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>HOME</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>411</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame#frame{border: 2px solid grey;
+border-radius:40px}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_login">
+     <property name="geometry">
+      <rect>
+       <x>-300</x>
+       <y>0</y>
+       <width>1021</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 italic 16pt &quot;Rubik&quot;;
+background-color: rgba(0,0,0,0%);
+color:white;
+outline:2px black;
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Login:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_username">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>80</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Mongolian Baiti&quot;;
+background-color: rgba(0,0,0,0%);
+color:black;
+outline:2px black;
+</string>
+     </property>
+     <property name="text">
+      <string>Username:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_username">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>100</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Mongolian Baiti&quot;;
+border-style: outset;
+border-width: 3px;
+padding: 6px;
+border: 1px solid grey;
+background-color:qlineargradient(spread:pad, x1:0.108, y1:0.170455, x2:0.795, y2:0.835, stop:0 rgba(255, 170, 255, 255), stop:1 rgba(85, 255, 255, 255))</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_password">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>150</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Mongolian Baiti&quot;;
+background-color: rgba(0,0,0,0%);
+color:black;
+outline:2px black;</string>
+     </property>
+     <property name="text">
+      <string>Password:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_password">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>170</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Mongolian Baiti&quot;;
+border-style: outset;
+border-width: 3px;
+padding: 6px;
+border: 1px solid grey;
+background-color:qlineargradient(spread:pad, x1:0.108, y1:0.170455, x2:0.795, y2:0.835, stop:0 rgba(255, 170, 255, 255), stop:1 rgba(85, 255, 255, 255))</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_notification">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>220</y>
+       <width>261</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Mongolian Baiti&quot;;
+background-color: rgba(0,0,0,0%);
+color:black;
+outline:2px black;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_login">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>260</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Mongolian Baiti&quot;;
+border-style: outset;
+border-width: 3px;
+border-radius: 15px;
+border: 1px solid grey;
+padding: 6px;
+background-color:qlineargradient(spread:pad, x1:0.108, y1:0.170455, x2:0.795, y2:0.835, stop:0 rgba(255, 170, 255, 255), stop:1 rgba(85, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Login</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>Button_home</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

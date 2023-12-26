@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>576</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1101</width>
+     <height>771</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{background-color:qlineargradient(spread:pad, x1:0.108, y1:0.170455, x2:0.795, y2:0.835, stop:0 rgba(85, 255, 255, 255), stop:0.994318 rgba(255, 170, 255, 255));}</string>
+   </property>
+   <widget class="QLabel" name="label_welcome">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>140</y>
+      <width>1021</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 16pt &quot;Rubik&quot;;
+background-color: rgba(0,0,0,0%);
+color:white;
+outline:2px black;
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:400; color:#ffffff;&quot;&gt;Welcome To Gym Penguin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_signIn">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>260</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Mongolian Baiti&quot;;
+border-style: outset;
+border-width: 3px;
+border-radius: 15px;
+border: 1px solid grey;
+padding: 6px;
+background-color:qlineargradient(spread:pad, x1:0.108, y1:0.170455, x2:0.795, y2:0.835, stop:0 rgba(255, 170, 255, 255), stop:1 rgba(85, 255, 255, 255));
+
+</string>
+    </property>
+    <property name="text">
+     <string>Sign in</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_register">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>330</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Mongolian Baiti&quot;;
+border-style: outset;
+border-width: 3px;
+border-radius: 15px;
+border: 1px solid grey;
+padding: 6px;
+background-color:qlineargradient(spread:pad, x1:0.108, y1:0.170455, x2:0.795, y2:0.835, stop:0 rgba(255, 170, 255, 255), stop:1 rgba(85, 255, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_signIn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>1021</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 16pt &quot;Rubik&quot;;
+background-color: rgba(0,0,0,0%);
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:400;&quot;&gt;Sign in or create a new account&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>90</y>
+      <width>411</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame#frame{
+border: 2px solid grey;
+border-radius:40px}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>label_welcome</zorder>
+   <zorder>Button_signIn</zorder>
+   <zorder>Button_register</zorder>
+   <zorder>label_signIn</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
